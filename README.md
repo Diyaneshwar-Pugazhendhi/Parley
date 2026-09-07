@@ -1,10 +1,11 @@
 # ai-chatbot
 
-An intelligent conversation system built with Flask that demonstrates AI-powered chat capabilities using the Anthropic Claude API. This project showcases a production-ready chatbot with RESTful endpoints, health checks, and scalable deployment via Docker.
+![CI](https://github.com/Diyaneshwar-Pugazhendhi/ai-chatbot/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-3.0-black.svg)
 
-![Preview](https://img.shields.io/badge/Powered%20by-Anthropic%20Claude-blue.svg)
-![Preview](https://img.shields.io/badge/License-MIT-green.svg)
-![Preview](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
+An intelligent conversation system built with Flask that demonstrates AI-powered chat capabilities using the Anthropic Claude API. This project showcases a production-ready chatbot with RESTful endpoints, health checks, and scalable deployment via Docker.
 
 ## 📖 Overview
 
@@ -99,7 +100,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit pull requests, create issues, or suggest features.
+Contributions are welcome! Please feel free to submit pull requests, create issues, or suggest features. See [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for setup instructions and development guidelines.
 
 ---
 
