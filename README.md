@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-3.0-black.svg)
 
-An intelligent conversation system built with Flask that demonstrates AI-powered chat capabilities using the Anthropic Claude API. This project showcases a production-ready chatbot with RESTful endpoints, health checks, and scalable deployment via Docker.
+An intelligent conversation system built with Flask that demonstrates AI-powered chat capabilities using a third-party AI API. This project showcases a production-ready chatbot with RESTful endpoints, health checks, and scalable deployment via Docker.
 
 ## 📖 Overview
 
@@ -15,7 +15,7 @@ The **ai-chatbot** is a conversational AI system that provides intelligent respo
 
 - **Language**: Python 3
 - **Framework**: Flask
-- **AI**: Anthropic Claude API
+- **AI**: Third-party LLM API
 - **Containerization**: Docker & Docker Compose
 - **Environment**: Virtual Environment (venv)
 
@@ -40,8 +40,8 @@ docker-compose up -d
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-# Set your ANTHROPIC_API_KEY environment variable
-export ANTHROPIC_API_KEY=your_key_here
+# Set your LLM_PROVIDER_API_KEY environment variable
+export LLM_PROVIDER_API_KEY=your_key_here
 python app.py
 ```
 
@@ -66,7 +66,7 @@ curl -X POST http://localhost:8000/api/query \
 {
   "response": "Processing: What is the capital of France?",
   "timestamp": "2026-08-30T23:45:12.123456",
-  "model": "Claude API"
+  "model": "LLM API"
 }
 ```
 
@@ -104,4 +104,4 @@ Contributions are welcome! Please feel free to submit pull requests, create issu
 
 ---
 
-*Built with ❤️ using Anthropic Claude API*
+*Built with ❤️ using an AI API*

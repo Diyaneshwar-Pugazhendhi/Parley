@@ -8,14 +8,14 @@ class PortfolioBot:
     """Autonomous AI bot for portfolio showcase"""
 
     def __init__(self):
-        self.name = "ClaudeBot"
+        self.name = "AIResponder"
         self.created_at = datetime.now()
 
     def process_query(self, query: str) -> dict:
         return {
             "response": f"Processing: {query}",
             "timestamp": datetime.now().isoformat(),
-            "model": "Claude API"
+            "model": "AI API"
         }
 
 bot = PortfolioBot()

@@ -32,7 +32,7 @@ Ensure you have the following installed on your machine:
 - **pip** (bundled with Python 3.4+)
 - **Git** — https://git-scm.com/
 - **Docker & Docker Compose** *(optional, for containerized development)* — https://docs.docker.com/get-docker/
-- **An Anthropic API key** — https://console.anthropic.com/ (required to test the chat functionality)
+- **An LLM provider API key** — https://console provider.com/ (required to test the chat functionality)
 
 ### Option 1: Local Development with venv
 
