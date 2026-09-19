@@ -61,12 +61,12 @@ Ensure you have the following installed on your machine:
    pip install -r requirements.txt
    ```
 
-5. **Set the Anthropic API key**
+5. **Set the LLM provider API key**
 
    Create a `.env` file at the project root (copy from `.env.example` if available):
 
    ```bash
-   export ANTHROPIC_API_KEY=your_api_key_here
+   export LLM_PROVIDER_API_KEY=your_api_key_here
    ```
 
    Alternatively, install `python-dotenv` (already in `requirements.txt`) and store it in `.env`.
